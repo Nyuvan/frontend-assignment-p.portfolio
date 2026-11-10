@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- TASK 1: This is a valid HTML5 document. -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Personal Portfolio</title>
+
+  <!--connecting the HTML file to the CSS file. -->
+  <link rel="stylesheet" href="p_portfolio.css">
+</head>
+<body>
+
+  <!-- TASK 2: My name and a short introduction. -->
+  <header>
+    <h1>Neel Yuvan</h1>
+    <p>
+      Hello! im a student  started learning web devlopement and mastering frontend,
+      looking forward to my contribution to the world!
+    </p>
+
+    <!-- TASK 3: My picture.-->
+    <img src="my picture.jpg" alt="My profile picture" width="150">
+  </header>
+
+  <!-- This menu jumps to each section on the page. -->
+  <nav>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#academics">Academic Details</a>
+    <a href="#timetable">Timetable</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- About Me -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I am a First year student in CSE branch, in Patna,Also born and raised in bihar, patna
+      </p>
+    </section>
+
+    <!-- TASK 4: Education using an ordered list (numbered list). -->
+    <section id="education">
+      <h2>Education</h2>
+      <p>My educational qualifications:</p>
+      <ol>
+        <li>Bachelor of Computer Science - Medhavi Skills University (2026 - present)</li>
+        <li>Higher Secondary School - Blue Bells Academy </li>
+        <li>Secondary School - D.A.V Public School </li>
+      </ol>
+    </section>
+
+    <!-- TASK 5 (part 1): Technical skills using an unordered list (bullet list). -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML and CSS</li>
+        <li>Basic JavaScript</li>
+        <li>Python programming</li>
+        <li>Problem solving</li>
+      </ul>
+    </section>
+
+    <!-- TASK 5 (part 2): Hobbies using an unordered list. -->
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Reading comics,manhwas,mangas</li>
+        <li>Playing Badminton</li>
+        <li>Listening to music</li>
+        <li>Learning new technology</li>
+      </ul>
+    </section>
+
+    <!-- TASK 6: A table with subjects and credits or marks. -->
+    <section id="academics">
+      <h2>Academic Details</h2>
+      <table>
+        <caption>Semester 1 Subjects</caption>
+
+        <!-- The first row contains the column headings. -->
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Credits</th>
+            <th>Marks</th>
+          </tr>
+        </thead>
+
+         <!--Each row below is one subject. -->
+        <tbody>
+          <tr>
+            <td>Basics of frontend</td>
+            <td>4</td>
+            <td>88</td>
+          </tr>
+          <tr>
+            <td>Fundamentals of computer programing</td>
+            <td>4</td>
+            <td>92</td>
+          </tr>
+          <tr>
+            <td>Mathematics for AI/ML</td>
+            <td>3</td>
+            <td>85</td>
+          </tr>
+          <tr>
+            <td>Employability skills</td>
+            <td>3</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>Problem solving using Python</td>
+            <td>2</td>
+            <td>90</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- BONUS: Weekly timetable.
+         The first column shows the time.
+         The other columns show Monday to Friday. -->
+    <section id="timetable">
+      <h2>Weekly Timetable</h2>
+      <table>
+        <caption>College Schedule</caption>
+        <thead>
+          <tr>
+            <th>Time</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>09:00 - 10:00</th>
+            <td>Basics of frontend</td>
+            <td>Mathematics for AI/ML</td>
+            <td>Basics of frontend</td>
+            <td>Fundamentals of computer programing</td>
+            <td>Problem solving using Python</td>
+          </tr>
+          <tr>
+            <th>10:00 - 11:00</th>
+            <td>Problem solving using Python</td>
+            <td>Fundamentals of computer programing</td>
+            <td>Mathematics for AI/ML</td>
+            <td>Communication</td>
+            <td>Basics of frontend</td>
+          </tr>
+          <tr>
+            <th>11:00 - 11:30</th>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+            <td>Break</td>
+          </tr>
+          <tr>
+            <th>11:30 - 12:30</th>
+            <td>Mathematics for AI/ML</td>
+            <td>Problem solving using Python</td>
+            <td>Lab</td>
+            <td>Problem solving using Python</td>
+            <td>Fundamentals of computer programing</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- TASK 8: Career goals. -->
+    <section id="goals">
+      <h2>Career Goals</h2>
+      <p>
+        My goal is to become a skilled developer.
+        I want to build websites and take part in big projects that are helpful to people. Make my name thats known globally.
+      </p>
+    </section>
+
+    <!-- TASK 7 : Contact information.
+         "mailto:" opens the user's email app. -->
+    <section id="contact">
+      <h2>Contact Information</h2>
+      <p>
+        Email:
+        <a href="mailto:example@gmail.com">neelyuvan389@gmail.com.com</a>
+      </p>
+      <p>
+        Website:
+        <a href="https://www.edx.org/">https://www.edx.org/</a>
+      </p>
+    </section>
+
+  </main>
+
+  <!-- TASK 9: Footer with my name and the batch. -->
+  <footer>
+    <p>&copy; 2026 Neel Yuvan | Batch of - 2030</p>
+  </footer>
+
+</body>
+</html>

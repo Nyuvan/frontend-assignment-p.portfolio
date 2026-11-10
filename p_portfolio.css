@@ -1,0 +1,80 @@
+/* Simple, basic styles for the portfolio page. */
+
+/* The whole page */
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  color: #222222;
+}
+
+/* Header: name, introduction, and photo */
+header {
+  text-align: center;
+}
+
+header img {
+  width: 150px;
+  height: auto;
+  border: 1px solid #999999;
+}
+
+/* Headings */
+h1,
+h2 {
+  color: #1f4e79;
+}
+
+h2 {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 4px;
+}
+
+/* Navigation links */
+nav {
+  text-align: center;
+  margin: 20px 0;
+}
+
+nav a {
+  color: #1f4e79;
+  margin: 0 8px;
+}
+
+/* Space between sections */
+section {
+  margin-bottom: 25px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #999999;
+  padding: 6px;
+  text-align: left;
+}
+
+th {
+  background-color: #eeeeee;
+}
+
+caption {
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #555555;
+}
